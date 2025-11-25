@@ -40,9 +40,12 @@ img {
 .main-nav a:hover {
   color: #0bd;
 }
-.page-title {
+.page-title,
+.heading-large{
   font-size: 3rem;
   text-align: center;
+}
+.page-title{
   margin-top: 2rem;
   line-height: 1.4;
 }
@@ -53,4 +56,63 @@ img {
 }
 .cover-home {
   background-image: url(../images/cover-home-s.webp);
+}
+.about {
+  max-width: 736px;
+  padding: 0 1.5rem;
+  margin: 3rem auto 0;
+}
+.about p {
+  margin-bottom: 3rem;
+}
+.heading-lange{
+  margin-bottom: 1rem;
+}
+.btn{
+  display: inline-block;
+  font-size: 1.5rem;
+  background-color: #0bd;
+  color: #fff;
+  border-radius: 8px;
+  padding: .75rem 1.5rem;
+  transition: .5s;
+}
+.btn:hover{
+  background-color: #0090aa;
+}
+.page-footer {
+  background-image: url(../images/footer-s.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 12rem;
+}
+.info {
+  width: 100%;
+  max-width: 544px;
+  margin: auto;
+  padding: 0 1.5rem;
+  border-spacing: 0;
+}
+.info th,
+.info td {
+  border-bottom: 1px solid #c9c2bc;
+}
+.info th {
+  text-align: left;
+  font-weight: normal;
+  padding: 1rem;
+}
+.info td {
+  padding: 1rem 0;
+}
+@media (min-width: 800px){
+  .page-title{
+    font-size: 5rem;
+  }
+  .heading-lange{
+    font-size: 4rem;
+  }
+  .main-nav{
+    font-size: 2rem;
+  }
 }
