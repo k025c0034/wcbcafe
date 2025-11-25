@@ -1,3 +1,13 @@
+.align-center {
+  text-align: center;
+}
+.font-english{
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+}
+.page-header {
+  padding-top: 5rem;
+}
 html{
   font-size: 100%;
 }
@@ -13,4 +23,20 @@ a {
 }
 img {
   max-width: 100%;
+}
+.logo {
+  width: 210px;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.main-nav a{
+  color: #432;
+}
+.main-nav a:hover {
+  color: #0bd;
 }
