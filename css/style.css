@@ -79,6 +79,7 @@ img {
 }
 .btn:hover{
   background-color: #0090aa;
+  rotate: -5deg;
 }
 .page-footer {
   background-image: url(../images/footer-s.webp);
